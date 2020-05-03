@@ -1,0 +1,15 @@
+{
+  "name": "mitrais-test-BE",
+  "version": "1.0.0",
+  "description": "this is test project for mitrais",
+  "main": "index.js",
+  "author": "anbya army ali",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "mysql2": "^2.1.0"
+  }
+}
