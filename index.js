@@ -7,7 +7,7 @@ const app = express()
 
 const loginRouter = require("./routes/login")
 
-const PORT = 8080
+const PORT = process.env.PORT || 3999
 
 app.use(cors());
 app.use(bodyParser.json());
