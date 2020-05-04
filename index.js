@@ -16,7 +16,7 @@ app.get("/", function(req,res){
     res.send("Hello World dari mitrais test API");
 })
 
-app.use("/login", loginRouter);
+app.use("/register", loginRouter);
 
 app.listen(PORT, () => {
     console.log(`server running on port:${PORT}`);
